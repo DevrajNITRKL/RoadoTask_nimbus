@@ -1,0 +1,401 @@
+customer_id,plan_tier,is_churned,mrr_usd,signup_date,ticket_count,industry,company_size,country_code,used_ai_suggest,ai_suggest_clicks,total_feature_clicks,distinct_features_used,total_session_sec,months_since_signup,segment,segment_label
+1,starter,True,12.497372722352155,2023-01-01 00:00:00.000000000,1,Logistics,small,SG,True,1.0,4.0,3.0,4413.0,34.5,1,At-Risk / Low-Value
+2,enterprise,False,92.12027304970236,2023-01-03 05:03:09.473684210,0,Logistics,enterprise,CA,False,0.0,6.0,5.0,7893.0,34.4,0,Champions (High-Value)
+3,professional,False,39.59504920930114,2023-01-05 10:06:18.947368421,0,Logistics,large,DE,False,0.0,1.0,1.0,262.0,34.333333333333336,1,At-Risk / Low-Value
+4,starter,False,12.256116111318853,2023-01-07 15:09:28.421052631,2,Education,large,US,False,0.0,2.0,2.0,3663.0,34.266666666666666,1,At-Risk / Low-Value
+5,free,True,0.0,2023-01-09 20:12:37.894736842,4,E-commerce,enterprise,DE,False,0.0,7.0,5.0,5990.0,34.2,2,Growth Potential
+6,free,False,0.0,2023-01-12 01:15:47.368421052,0,Logistics,large,US,True,1.0,6.0,5.0,10961.0,34.1,2,Growth Potential
+7,free,False,0.0,2023-01-14 06:18:56.842105263,2,Healthcare,small,JP,False,0.0,1.0,1.0,1148.0,34.03333333333333,1,At-Risk / Low-Value
+8,professional,True,42.319434400672854,2023-01-16 11:22:06.315789473,2,Healthcare,enterprise,GB,False,0.0,2.0,2.0,1819.0,33.96666666666667,1,At-Risk / Low-Value
+9,starter,False,11.882014491369917,2023-01-18 16:25:15.789473684,0,Logistics,large,JP,False,0.0,4.0,4.0,7810.0,33.9,1,At-Risk / Low-Value
+10,professional,True,35.98325675755789,2023-01-20 21:28:25.263157894,4,Logistics,enterprise,JP,False,0.0,3.0,3.0,1459.0,33.833333333333336,1,At-Risk / Low-Value
+11,free,True,0.0,2023-01-23 02:31:34.736842105,4,Healthcare,small,DE,False,0.0,6.0,4.0,7435.0,33.733333333333334,2,Growth Potential
+12,enterprise,False,105.7101821116295,2023-01-25 07:34:44.210526315,1,Education,large,GB,True,2.0,6.0,5.0,4844.0,33.666666666666664,0,Champions (High-Value)
+13,professional,False,36.07236891338548,2023-01-27 12:37:53.684210526,0,Technology,small,US,True,2.0,4.0,3.0,3147.0,33.6,1,At-Risk / Low-Value
+14,free,False,0.0,2023-01-29 17:41:03.157894737,0,Technology,large,US,True,1.0,4.0,4.0,5218.0,33.53333333333333,1,At-Risk / Low-Value
+15,free,False,0.0,2023-01-31 22:44:12.631578947,1,Logistics,medium,SG,False,0.0,6.0,5.0,9484.0,33.46666666666667,2,Growth Potential
+16,free,False,0.0,2023-02-03 03:47:22.105263158,3,Finance,large,CA,False,0.0,3.0,2.0,3097.0,33.36666666666667,1,At-Risk / Low-Value
+17,free,True,0.0,2023-02-05 08:50:31.578947368,6,Logistics,enterprise,SG,False,0.0,5.0,4.0,5111.0,33.3,1,At-Risk / Low-Value
+18,starter,False,11.757606489288312,2023-02-07 13:53:41.052631579,0,Logistics,large,SG,False,0.0,6.0,5.0,7093.0,33.233333333333334,2,Growth Potential
+19,starter,False,10.931427933172875,2023-02-09 18:56:50.526315789,3,Technology,small,US,False,0.0,3.0,3.0,3946.0,33.166666666666664,1,At-Risk / Low-Value
+20,free,False,0.0,2023-02-12 00:00:00.000000000,0,Healthcare,small,DE,True,1.0,5.0,4.0,2628.0,33.1,1,At-Risk / Low-Value
+21,starter,False,12.726848276635227,2023-02-14 05:03:09.473684210,0,Logistics,large,JP,False,0.0,4.0,3.0,9265.0,33.0,1,At-Risk / Low-Value
+22,free,False,0.0,2023-02-16 10:06:18.947368421,1,Healthcare,enterprise,JP,False,0.0,7.0,5.0,10728.0,32.93333333333333,2,Growth Potential
+23,free,True,0.0,2023-02-18 15:09:28.421052631,2,Healthcare,medium,JP,False,0.0,6.0,4.0,5372.0,32.86666666666667,1,At-Risk / Low-Value
+24,starter,False,11.755604864618265,2023-02-20 20:12:37.894736842,1,Finance,enterprise,GB,True,1.0,8.0,5.0,7594.0,32.8,2,Growth Potential
+25,starter,True,12.089749447051016,2023-02-23 01:15:47.368421053,3,Healthcare,medium,US,True,1.0,6.0,5.0,6391.0,32.7,2,Growth Potential
+26,professional,False,42.274873808019535,2023-02-25 06:18:56.842105263,0,Technology,small,DE,False,0.0,5.0,4.0,4239.0,32.63333333333333,1,At-Risk / Low-Value
+27,free,False,0.0,2023-02-27 11:22:06.315789474,1,Education,enterprise,GB,False,0.0,2.0,2.0,1845.0,32.56666666666667,1,At-Risk / Low-Value
+28,starter,False,11.632687684550946,2023-03-01 16:25:15.789473684,1,Education,medium,CA,True,1.0,3.0,2.0,7926.0,32.5,1,At-Risk / Low-Value
+29,starter,False,12.570002995463396,2023-03-03 21:28:25.263157895,3,E-commerce,large,DE,False,0.0,5.0,4.0,4913.0,32.43333333333333,1,At-Risk / Low-Value
+30,free,True,0.0,2023-03-06 02:31:34.736842105,2,Logistics,small,SG,False,0.0,5.0,4.0,2033.0,32.333333333333336,1,At-Risk / Low-Value
+31,starter,True,11.339051575055956,2023-03-08 07:34:44.210526316,3,Technology,large,DE,False,0.0,2.0,2.0,2854.0,32.266666666666666,1,At-Risk / Low-Value
+32,free,False,0.0,2023-03-10 12:37:53.684210526,2,Healthcare,small,DE,True,3.0,12.0,7.0,11280.0,32.2,2,Growth Potential
+33,free,False,0.0,2023-03-12 17:41:03.157894737,0,Education,enterprise,JP,False,0.0,1.0,1.0,616.0,32.13333333333333,1,At-Risk / Low-Value
+34,enterprise,False,92.59246233282323,2023-03-14 22:44:12.631578948,1,Technology,enterprise,DE,True,1.0,9.0,6.0,8668.0,32.06666666666667,0,Champions (High-Value)
+35,enterprise,False,98.9676819002417,2023-03-17 03:47:22.105263158,0,Education,small,SG,True,2.0,8.0,5.0,12364.0,31.966666666666665,0,Champions (High-Value)
+36,professional,False,38.36761850613548,2023-03-19 08:50:31.578947369,0,Healthcare,small,SG,True,2.0,7.0,6.0,7003.0,31.9,2,Growth Potential
+37,free,True,0.0,2023-03-21 13:53:41.052631579,1,Education,small,US,True,4.0,5.0,2.0,7137.0,31.833333333333332,1,At-Risk / Low-Value
+38,free,False,0.0,2023-03-23 18:56:50.526315790,0,Logistics,enterprise,DE,True,2.0,10.0,6.0,10952.0,31.766666666666666,2,Growth Potential
+39,professional,False,39.62858913216874,2023-03-26 00:00:00.000000000,2,Logistics,medium,JP,True,2.0,8.0,5.0,9726.0,31.7,2,Growth Potential
+40,starter,True,12.317434291006872,2023-03-28 05:03:09.473684211,1,E-commerce,large,DE,True,1.0,10.0,7.0,14569.0,31.6,2,Growth Potential
+41,free,True,0.0,2023-03-30 10:06:18.947368421,2,E-commerce,large,CA,True,1.0,3.0,3.0,4255.0,31.533333333333335,1,At-Risk / Low-Value
+42,starter,False,12.392489692840106,2023-04-01 15:09:28.421052632,0,Education,enterprise,CA,True,1.0,7.0,6.0,10418.0,31.466666666666665,2,Growth Potential
+43,free,False,0.0,2023-04-03 20:12:37.894736842,1,Technology,large,JP,True,1.0,4.0,3.0,4375.0,31.4,1,At-Risk / Low-Value
+44,enterprise,False,106.35648949269243,2023-04-06 01:15:47.368421053,2,Logistics,small,US,False,0.0,5.0,5.0,5821.0,31.3,0,Champions (High-Value)
+45,free,False,0.0,2023-04-08 06:18:56.842105263,2,Technology,medium,US,False,0.0,3.0,2.0,4767.0,31.233333333333334,1,At-Risk / Low-Value
+46,professional,False,38.33406816507079,2023-04-10 11:22:06.315789474,1,Technology,large,SG,True,2.0,10.0,5.0,10938.0,31.166666666666668,2,Growth Potential
+47,free,False,0.0,2023-04-12 16:25:15.789473684,3,Education,medium,SG,True,1.0,3.0,3.0,2689.0,31.1,1,At-Risk / Low-Value
+48,starter,False,13.192498204430272,2023-04-14 21:28:25.263157895,1,Technology,small,GB,False,0.0,4.0,3.0,1850.0,31.033333333333335,1,At-Risk / Low-Value
+49,starter,False,12.005268024794983,2023-04-17 02:31:34.736842106,1,Logistics,large,JP,False,0.0,4.0,4.0,3950.0,30.933333333333334,1,At-Risk / Low-Value
+50,free,True,0.0,2023-04-19 07:34:44.210526316,1,Healthcare,enterprise,DE,True,1.0,4.0,4.0,7784.0,30.866666666666667,1,At-Risk / Low-Value
+51,enterprise,False,90.42811425229087,2023-04-21 12:37:53.684210526,0,E-commerce,medium,JP,False,0.0,1.0,1.0,623.0,30.8,1,At-Risk / Low-Value
+52,professional,False,40.949691669113584,2023-04-23 17:41:03.157894738,1,Healthcare,small,GB,True,1.0,6.0,6.0,6217.0,30.733333333333334,2,Growth Potential
+53,enterprise,False,93.2561307432926,2023-04-25 22:44:12.631578948,1,Technology,medium,SG,True,2.0,5.0,4.0,4615.0,30.666666666666668,0,Champions (High-Value)
+54,professional,False,42.104823457637565,2023-04-28 03:47:22.105263158,0,Healthcare,large,JP,False,0.0,4.0,3.0,2834.0,30.566666666666666,1,At-Risk / Low-Value
+55,starter,True,11.292335137156817,2023-04-30 08:50:31.578947368,5,Logistics,large,JP,True,1.0,5.0,4.0,6936.0,30.5,1,At-Risk / Low-Value
+56,enterprise,False,92.8756168691406,2023-05-02 13:53:41.052631580,3,Logistics,enterprise,SG,False,0.0,8.0,2.0,8764.0,30.433333333333334,0,Champions (High-Value)
+57,free,True,0.0,2023-05-04 18:56:50.526315790,1,Technology,small,GB,False,0.0,4.0,4.0,5765.0,30.366666666666667,1,At-Risk / Low-Value
+58,free,False,0.0,2023-05-07 00:00:00.000000000,0,Education,small,SG,False,0.0,2.0,2.0,1544.0,30.3,1,At-Risk / Low-Value
+59,free,True,0.0,2023-05-09 05:03:09.473684210,5,Healthcare,enterprise,US,False,0.0,3.0,3.0,3213.0,30.2,1,At-Risk / Low-Value
+60,free,True,0.0,2023-05-11 10:06:18.947368422,3,Education,enterprise,DE,False,0.0,9.0,5.0,5720.0,30.133333333333333,2,Growth Potential
+61,starter,True,12.661266280068025,2023-05-13 15:09:28.421052632,7,Education,small,SG,False,0.0,11.0,6.0,6532.0,30.066666666666666,2,Growth Potential
+62,free,False,0.0,2023-05-15 20:12:37.894736842,0,Finance,medium,GB,True,2.0,8.0,5.0,15096.0,30.0,2,Growth Potential
+63,professional,False,39.19024410075512,2023-05-18 01:15:47.368421052,2,Technology,medium,CA,True,1.0,5.0,5.0,2242.0,29.9,1,At-Risk / Low-Value
+64,starter,False,11.857830592651748,2023-05-20 06:18:56.842105264,2,E-commerce,enterprise,US,True,1.0,1.0,1.0,541.0,29.833333333333332,1,At-Risk / Low-Value
+65,free,False,0.0,2023-05-22 11:22:06.315789474,0,Logistics,medium,CA,True,2.0,5.0,3.0,5734.0,29.766666666666666,1,At-Risk / Low-Value
+66,starter,False,12.143136795139725,2023-05-24 16:25:15.789473684,2,Logistics,small,SG,True,1.0,6.0,5.0,7633.0,29.7,2,Growth Potential
+67,free,True,0.0,2023-05-26 21:28:25.263157896,2,Technology,large,US,True,2.0,6.0,3.0,8162.0,29.633333333333333,1,At-Risk / Low-Value
+68,professional,False,36.51903941786311,2023-05-29 02:31:34.736842106,2,E-commerce,large,DE,True,2.0,6.0,4.0,6615.0,29.533333333333335,2,Growth Potential
+69,free,True,0.0,2023-05-31 07:34:44.210526316,4,Logistics,medium,SG,True,1.0,6.0,5.0,3911.0,29.466666666666665,2,Growth Potential
+70,enterprise,False,106.35648949269243,2023-06-02 12:37:53.684210526,0,Technology,enterprise,DE,True,1.0,2.0,2.0,1633.0,29.4,0,Champions (High-Value)
+71,professional,True,38.011812666982074,2023-06-04 17:41:03.157894738,4,Logistics,enterprise,JP,False,0.0,5.0,3.0,8608.0,29.333333333333332,1,At-Risk / Low-Value
+72,free,False,0.0,2023-06-06 22:44:12.631578948,1,Education,enterprise,CA,False,0.0,4.0,2.0,4432.0,29.266666666666666,1,At-Risk / Low-Value
+73,free,True,0.0,2023-06-09 03:47:22.105263158,3,Healthcare,enterprise,US,False,0.0,6.0,4.0,2707.0,29.166666666666668,1,At-Risk / Low-Value
+74,professional,False,38.28812653456515,2023-06-11 08:50:31.578947368,0,Healthcare,enterprise,DE,False,0.0,9.0,5.0,8825.0,29.1,2,Growth Potential
+75,professional,False,35.29801357415069,2023-06-13 13:53:41.052631580,1,Logistics,medium,GB,True,1.0,2.0,2.0,1147.0,29.033333333333335,1,At-Risk / Low-Value
+76,professional,False,36.31799025945629,2023-06-15 18:56:50.526315790,1,Finance,large,DE,True,2.0,8.0,6.0,9904.0,28.966666666666665,2,Growth Potential
+77,professional,True,40.6845833850097,2023-06-18 00:00:00.000000000,3,E-commerce,large,GB,False,0.0,5.0,4.0,10307.0,28.9,2,Growth Potential
+78,free,False,0.0,2023-06-20 05:03:09.473684210,0,E-commerce,medium,SG,False,0.0,5.0,4.0,13010.0,28.8,2,Growth Potential
+79,starter,False,10.86503038200836,2023-06-22 10:06:18.947368422,0,E-commerce,enterprise,US,False,0.0,4.0,4.0,2960.0,28.733333333333334,1,At-Risk / Low-Value
+80,free,False,0.0,2023-06-24 15:09:28.421052632,2,Education,medium,DE,True,1.0,10.0,6.0,7089.0,28.666666666666668,2,Growth Potential
+81,professional,False,36.90238341338696,2023-06-26 20:12:37.894736842,3,E-commerce,large,DE,True,2.0,6.0,5.0,7421.0,28.6,2,Growth Potential
+82,starter,False,12.412542584636949,2023-06-29 01:15:47.368421054,0,Healthcare,small,US,False,0.0,3.0,2.0,2550.0,28.5,1,At-Risk / Low-Value
+83,free,False,0.0,2023-07-01 06:18:56.842105264,0,Education,medium,DE,False,0.0,6.0,5.0,5585.0,28.433333333333334,2,Growth Potential
+84,free,False,0.0,2023-07-03 11:22:06.315789474,0,Technology,enterprise,GB,False,0.0,3.0,2.0,7954.0,28.366666666666667,1,At-Risk / Low-Value
+85,free,False,0.0,2023-07-05 16:25:15.789473684,0,E-commerce,large,DE,False,0.0,4.0,2.0,4572.0,28.3,1,At-Risk / Low-Value
+86,free,False,0.0,2023-07-07 21:28:25.263157896,2,E-commerce,large,CA,False,0.0,5.0,4.0,9730.0,28.233333333333334,2,Growth Potential
+87,professional,True,40.19141964124462,2023-07-10 02:31:34.736842106,3,Technology,large,SG,False,0.0,0.0,0.0,0.0,28.133333333333333,1,At-Risk / Low-Value
+88,starter,False,11.371638674512143,2023-07-12 07:34:44.210526316,1,E-commerce,large,JP,False,0.0,8.0,5.0,7606.0,28.066666666666666,2,Growth Potential
+89,professional,False,35.87564286352289,2023-07-14 12:37:53.684210526,0,Technology,enterprise,GB,True,1.0,4.0,4.0,8403.0,28.0,1,At-Risk / Low-Value
+90,starter,False,11.38361325839869,2023-07-16 17:41:03.157894738,2,Education,small,CA,True,1.0,6.0,4.0,4457.0,27.933333333333334,1,At-Risk / Low-Value
+91,free,False,0.0,2023-07-18 22:44:12.631578948,3,Healthcare,large,SG,False,0.0,2.0,2.0,1172.0,27.866666666666667,1,At-Risk / Low-Value
+92,professional,False,41.77443245122903,2023-07-21 03:47:22.105263158,1,Technology,medium,US,False,0.0,5.0,4.0,4618.0,27.766666666666666,1,At-Risk / Low-Value
+93,professional,False,41.575714943622536,2023-07-23 08:50:31.578947368,1,Finance,small,GB,True,1.0,6.0,6.0,11908.0,27.7,2,Growth Potential
+94,starter,True,11.753240471084291,2023-07-25 13:53:41.052631580,0,Technology,large,JP,False,0.0,6.0,4.0,4392.0,27.633333333333333,1,At-Risk / Low-Value
+95,professional,False,40.31106406525104,2023-07-27 18:56:50.526315790,0,E-commerce,small,SG,True,1.0,7.0,6.0,8682.0,27.566666666666666,2,Growth Potential
+96,starter,False,11.29196230899797,2023-07-30 00:00:00.000000000,1,Education,medium,JP,True,2.0,10.0,8.0,9703.0,27.5,2,Growth Potential
+97,starter,False,11.503554552626431,2023-08-01 05:03:09.473684212,2,Logistics,large,US,True,1.0,6.0,5.0,8370.0,27.4,2,Growth Potential
+98,starter,True,12.951205964450686,2023-08-03 10:06:18.947368420,3,Education,medium,US,False,0.0,10.0,7.0,10844.0,27.333333333333332,2,Growth Potential
+99,free,False,0.0,2023-08-05 15:09:28.421052632,4,Logistics,enterprise,GB,True,1.0,8.0,7.0,5271.0,27.266666666666666,2,Growth Potential
+100,free,False,0.0,2023-08-07 20:12:37.894736844,2,Technology,large,DE,False,0.0,8.0,6.0,15762.0,27.2,2,Growth Potential
+101,free,False,0.0,2023-08-10 01:15:47.368421052,0,Healthcare,large,US,True,1.0,6.0,6.0,4431.0,27.1,2,Growth Potential
+102,starter,False,10.863677289297168,2023-08-12 06:18:56.842105264,3,Finance,large,SG,True,1.0,7.0,6.0,5485.0,27.033333333333335,2,Growth Potential
+103,free,True,0.0,2023-08-14 11:22:06.315789476,3,Education,large,DE,False,0.0,5.0,4.0,5404.0,26.966666666666665,1,At-Risk / Low-Value
+104,starter,False,12.199299746327261,2023-08-16 16:25:15.789473684,2,E-commerce,enterprise,CA,False,0.0,4.0,3.0,5413.0,26.9,1,At-Risk / Low-Value
+105,enterprise,False,97.44420610173147,2023-08-18 21:28:25.263157896,2,Logistics,large,JP,False,0.0,4.0,4.0,4949.0,26.833333333333332,0,Champions (High-Value)
+106,free,True,0.0,2023-08-21 02:31:34.736842104,5,E-commerce,small,DE,True,1.0,5.0,5.0,4214.0,26.733333333333334,1,At-Risk / Low-Value
+107,starter,False,12.761864548172259,2023-08-23 07:34:44.210526316,3,Healthcare,large,JP,True,1.0,3.0,3.0,2013.0,26.666666666666668,1,At-Risk / Low-Value
+108,professional,False,37.76617534324343,2023-08-25 12:37:53.684210528,1,Logistics,enterprise,DE,True,1.0,2.0,2.0,1099.0,26.6,1,At-Risk / Low-Value
+109,free,False,0.0,2023-08-27 17:41:03.157894736,0,Education,large,CA,False,0.0,9.0,6.0,11490.0,26.533333333333335,2,Growth Potential
+110,free,False,0.0,2023-08-29 22:44:12.631578948,1,Technology,small,US,True,1.0,5.0,5.0,6923.0,26.466666666666665,2,Growth Potential
+111,free,False,0.0,2023-09-01 03:47:22.105263160,0,E-commerce,enterprise,CA,False,0.0,4.0,4.0,2678.0,26.366666666666667,1,At-Risk / Low-Value
+112,free,False,0.0,2023-09-03 08:50:31.578947368,0,Healthcare,enterprise,US,True,1.0,3.0,3.0,1454.0,26.3,1,At-Risk / Low-Value
+113,enterprise,False,101.45814837541286,2023-09-05 13:53:41.052631580,1,Education,small,US,True,2.0,5.0,4.0,4741.0,26.233333333333334,0,Champions (High-Value)
+114,professional,False,38.293410887091675,2023-09-07 18:56:50.526315792,1,Education,small,JP,False,0.0,2.0,2.0,6760.0,26.166666666666668,1,At-Risk / Low-Value
+115,starter,True,12.124913234044755,2023-09-10 00:00:00.000000000,2,Education,small,SG,False,0.0,6.0,3.0,6031.0,26.1,1,At-Risk / Low-Value
+116,professional,True,38.50178692725547,2023-09-12 05:03:09.473684212,1,Education,small,CA,False,0.0,3.0,2.0,2678.0,26.0,1,At-Risk / Low-Value
+117,professional,False,37.39683292442696,2023-09-14 10:06:18.947368420,2,Logistics,small,DE,False,0.0,5.0,4.0,6513.0,25.933333333333334,1,At-Risk / Low-Value
+118,free,False,0.0,2023-09-16 15:09:28.421052632,1,Education,enterprise,CA,True,1.0,7.0,5.0,8218.0,25.866666666666667,2,Growth Potential
+119,professional,False,41.05612519444613,2023-09-18 20:12:37.894736844,1,E-commerce,enterprise,JP,False,0.0,5.0,5.0,3780.0,25.8,1,At-Risk / Low-Value
+120,starter,True,11.136271621839487,2023-09-21 01:15:47.368421052,0,Healthcare,large,US,True,1.0,4.0,4.0,4656.0,25.7,1,At-Risk / Low-Value
+121,professional,False,41.874050212003716,2023-09-23 06:18:56.842105264,0,Logistics,large,JP,True,2.0,8.0,6.0,7276.0,25.633333333333333,2,Growth Potential
+122,professional,False,38.90196334634621,2023-09-25 11:22:06.315789476,1,Education,medium,GB,False,0.0,7.0,4.0,8158.0,25.566666666666666,2,Growth Potential
+123,free,False,0.0,2023-09-27 16:25:15.789473684,1,Finance,large,GB,False,0.0,4.0,3.0,3173.0,25.5,1,At-Risk / Low-Value
+124,free,False,0.0,2023-09-29 21:28:25.263157896,3,Finance,large,DE,False,0.0,7.0,6.0,10917.0,25.433333333333334,2,Growth Potential
+125,free,False,0.0,2023-10-02 02:31:34.736842104,1,Healthcare,small,JP,False,0.0,2.0,2.0,4921.0,25.333333333333332,1,At-Risk / Low-Value
+126,starter,False,10.853926339968282,2023-10-04 07:34:44.210526316,0,Technology,small,DE,False,0.0,5.0,3.0,6716.0,25.266666666666666,1,At-Risk / Low-Value
+127,professional,False,37.19568340320258,2023-10-06 12:37:53.684210528,0,Technology,large,DE,False,0.0,3.0,3.0,1266.0,25.2,1,At-Risk / Low-Value
+128,professional,False,39.324746874354766,2023-10-08 17:41:03.157894736,2,Logistics,medium,GB,False,0.0,10.0,6.0,15319.0,25.133333333333333,2,Growth Potential
+129,free,True,0.0,2023-10-10 22:44:12.631578948,3,Logistics,small,DE,True,2.0,6.0,4.0,5870.0,25.066666666666666,1,At-Risk / Low-Value
+130,starter,False,11.418930445039686,2023-10-13 03:47:22.105263160,0,Logistics,large,GB,True,1.0,3.0,3.0,4597.0,24.966666666666665,1,At-Risk / Low-Value
+131,starter,False,11.134454577774777,2023-10-15 08:50:31.578947368,1,Technology,large,US,True,2.0,9.0,6.0,11243.0,24.9,2,Growth Potential
+132,free,False,0.0,2023-10-17 13:53:41.052631580,0,Finance,enterprise,JP,False,0.0,4.0,4.0,1815.0,24.833333333333332,1,At-Risk / Low-Value
+133,free,False,0.0,2023-10-19 18:56:50.526315792,0,Technology,medium,DE,False,0.0,2.0,2.0,1803.0,24.766666666666666,1,At-Risk / Low-Value
+134,free,False,0.0,2023-10-22 00:00:00.000000000,2,E-commerce,enterprise,GB,False,0.0,8.0,6.0,6478.0,24.7,2,Growth Potential
+135,enterprise,False,92.49924985979641,2023-10-24 05:03:09.473684212,2,Education,medium,CA,False,0.0,5.0,4.0,7286.0,24.6,0,Champions (High-Value)
+136,free,False,0.0,2023-10-26 10:06:18.947368420,1,Logistics,small,DE,False,0.0,7.0,5.0,9602.0,24.533333333333335,2,Growth Potential
+137,starter,False,10.84413762371392,2023-10-28 15:09:28.421052632,0,Finance,medium,SG,False,0.0,2.0,2.0,487.0,24.466666666666665,1,At-Risk / Low-Value
+138,professional,False,42.23153069117189,2023-10-30 20:12:37.894736844,1,Healthcare,large,US,True,1.0,4.0,3.0,1255.0,24.4,1,At-Risk / Low-Value
+139,starter,False,11.08260259893634,2023-11-02 01:15:47.368421052,2,Healthcare,large,US,False,0.0,5.0,3.0,2940.0,24.3,1,At-Risk / Low-Value
+140,enterprise,False,100.51502621518222,2023-11-04 06:18:56.842105264,1,Education,medium,CA,True,2.0,7.0,6.0,13064.0,24.233333333333334,0,Champions (High-Value)
+141,enterprise,False,94.52629336960668,2023-11-06 11:22:06.315789476,3,Finance,medium,GB,False,0.0,8.0,5.0,10586.0,24.166666666666668,0,Champions (High-Value)
+142,free,False,0.0,2023-11-08 16:25:15.789473684,0,Technology,medium,DE,False,0.0,4.0,4.0,3820.0,24.1,1,At-Risk / Low-Value
+143,starter,True,12.363408932044473,2023-11-10 21:28:25.263157896,6,Technology,enterprise,GB,False,0.0,2.0,1.0,1040.0,24.033333333333335,1,At-Risk / Low-Value
+144,free,False,0.0,2023-11-13 02:31:34.736842104,1,E-commerce,medium,US,True,1.0,4.0,4.0,6491.0,23.933333333333334,1,At-Risk / Low-Value
+145,free,False,0.0,2023-11-15 07:34:44.210526316,2,E-commerce,small,GB,False,0.0,5.0,3.0,13883.0,23.866666666666667,2,Growth Potential
+146,free,False,0.0,2023-11-17 12:37:53.684210528,0,Technology,enterprise,US,False,0.0,4.0,3.0,6637.0,23.8,1,At-Risk / Low-Value
+147,starter,True,11.128525512165137,2023-11-19 17:41:03.157894736,5,Healthcare,enterprise,GB,False,0.0,5.0,4.0,7948.0,23.733333333333334,1,At-Risk / Low-Value
+148,starter,False,12.960044740435453,2023-11-21 22:44:12.631578948,1,Logistics,medium,CA,True,1.0,4.0,4.0,1204.0,23.666666666666668,1,At-Risk / Low-Value
+149,free,False,0.0,2023-11-24 03:47:22.105263160,1,Healthcare,small,JP,False,0.0,3.0,3.0,4187.0,23.566666666666666,1,At-Risk / Low-Value
+150,free,False,0.0,2023-11-26 08:50:31.578947368,2,E-commerce,enterprise,CA,True,1.0,10.0,8.0,10000.0,23.5,2,Growth Potential
+151,enterprise,False,100.99023383658634,2023-11-28 13:53:41.052631580,0,Education,large,CA,False,0.0,1.0,1.0,197.0,23.433333333333334,0,Champions (High-Value)
+152,free,False,0.0,2023-11-30 18:56:50.526315792,0,Technology,enterprise,JP,False,0.0,11.0,7.0,13196.0,23.366666666666667,2,Growth Potential
+153,free,False,0.0,2023-12-03 00:00:00.000000000,2,E-commerce,medium,JP,False,0.0,1.0,1.0,644.0,23.3,1,At-Risk / Low-Value
+154,starter,False,12.994588670219903,2023-12-05 05:03:09.473684212,0,E-commerce,small,DE,False,0.0,3.0,3.0,2254.0,23.2,1,At-Risk / Low-Value
+155,enterprise,False,97.39165639286306,2023-12-07 10:06:18.947368420,1,Logistics,medium,DE,True,1.0,4.0,4.0,2081.0,23.133333333333333,0,Champions (High-Value)
+156,free,False,0.0,2023-12-09 15:09:28.421052632,2,Technology,large,CA,False,0.0,3.0,2.0,7194.0,23.066666666666666,1,At-Risk / Low-Value
+157,professional,False,39.14755810120613,2023-12-11 20:12:37.894736844,1,Logistics,large,CA,False,0.0,3.0,3.0,4760.0,23.0,1,At-Risk / Low-Value
+158,professional,True,35.46633454084543,2023-12-14 01:15:47.368421052,4,Technology,large,US,False,0.0,3.0,3.0,3184.0,22.9,1,At-Risk / Low-Value
+159,free,False,0.0,2023-12-16 06:18:56.842105264,0,Logistics,medium,US,False,0.0,3.0,2.0,7918.0,22.833333333333332,1,At-Risk / Low-Value
+160,professional,False,40.85666220812569,2023-12-18 11:22:06.315789476,2,Healthcare,enterprise,DE,False,0.0,9.0,5.0,13638.0,22.766666666666666,2,Growth Potential
+161,starter,False,10.998716803020304,2023-12-20 16:25:15.789473684,0,Education,medium,SG,False,0.0,8.0,5.0,18740.0,22.7,2,Growth Potential
+162,starter,True,12.247565062719332,2023-12-22 21:28:25.263157896,2,Education,small,SG,False,0.0,5.0,3.0,4957.0,22.633333333333333,1,At-Risk / Low-Value
+163,starter,True,11.388837863235171,2023-12-25 02:31:34.736842108,2,Technology,enterprise,DE,False,0.0,4.0,3.0,1939.0,22.533333333333335,1,At-Risk / Low-Value
+164,starter,True,11.734309473700744,2023-12-27 07:34:44.210526316,1,Finance,large,US,False,0.0,2.0,2.0,3041.0,22.466666666666665,1,At-Risk / Low-Value
+165,free,False,0.0,2023-12-29 12:37:53.684210528,0,E-commerce,medium,US,True,3.0,9.0,5.0,7664.0,22.4,2,Growth Potential
+166,professional,False,37.87424718842661,2023-12-31 17:41:03.157894736,1,E-commerce,large,SG,True,2.0,10.0,6.0,8167.0,22.333333333333332,2,Growth Potential
+167,free,False,0.0,2024-01-02 22:44:12.631578948,2,Technology,large,GB,True,2.0,8.0,5.0,10856.0,22.266666666666666,2,Growth Potential
+168,free,False,0.0,2024-01-05 03:47:22.105263160,1,Logistics,small,GB,True,1.0,1.0,1.0,423.0,22.166666666666668,1,At-Risk / Low-Value
+169,free,False,0.0,2024-01-07 08:50:31.578947368,0,Finance,enterprise,US,False,0.0,2.0,2.0,2725.0,22.1,1,At-Risk / Low-Value
+170,starter,False,11.94252096527784,2024-01-09 13:53:41.052631580,3,Healthcare,small,GB,False,0.0,3.0,3.0,4588.0,22.033333333333335,1,At-Risk / Low-Value
+171,professional,False,40.27663508982865,2024-01-11 18:56:50.526315792,1,Logistics,small,JP,False,0.0,6.0,5.0,12090.0,21.966666666666665,2,Growth Potential
+172,free,False,0.0,2024-01-14 00:00:00.000000000,0,Logistics,small,DE,True,1.0,3.0,3.0,3637.0,21.9,1,At-Risk / Low-Value
+173,starter,False,12.558173033304602,2024-01-16 05:03:09.473684212,2,Technology,large,DE,False,0.0,2.0,2.0,2063.0,21.8,1,At-Risk / Low-Value
+174,free,False,0.0,2024-01-18 10:06:18.947368420,1,Technology,small,US,False,0.0,4.0,4.0,2384.0,21.733333333333334,1,At-Risk / Low-Value
+175,starter,False,10.874839524147083,2024-01-20 15:09:28.421052632,1,E-commerce,small,CA,False,0.0,2.0,2.0,6407.0,21.666666666666668,1,At-Risk / Low-Value
+176,free,False,0.0,2024-01-22 20:12:37.894736844,1,Technology,enterprise,SG,False,0.0,3.0,2.0,3710.0,21.6,1,At-Risk / Low-Value
+177,professional,False,39.741607859461986,2024-01-25 01:15:47.368421052,0,Technology,enterprise,US,True,1.0,6.0,5.0,7365.0,21.5,2,Growth Potential
+178,starter,False,10.923421952362201,2024-01-27 06:18:56.842105264,3,Technology,small,GB,False,0.0,2.0,2.0,1912.0,21.433333333333334,1,At-Risk / Low-Value
+179,enterprise,False,98.92805169458448,2024-01-29 11:22:06.315789476,1,E-commerce,enterprise,SG,False,0.0,5.0,4.0,4841.0,21.366666666666667,0,Champions (High-Value)
+180,free,True,0.0,2024-01-31 16:25:15.789473684,6,Healthcare,enterprise,CA,False,0.0,8.0,7.0,11909.0,21.3,2,Growth Potential
+181,free,False,0.0,2024-02-02 21:28:25.263157896,1,Healthcare,small,GB,False,0.0,5.0,5.0,4663.0,21.233333333333334,1,At-Risk / Low-Value
+182,free,False,0.0,2024-02-05 02:31:34.736842108,3,Technology,large,JP,True,1.0,4.0,3.0,2376.0,21.133333333333333,1,At-Risk / Low-Value
+183,enterprise,False,91.21064541204868,2024-02-07 07:34:44.210526316,0,E-commerce,small,GB,True,1.0,7.0,5.0,5850.0,21.066666666666666,0,Champions (High-Value)
+184,professional,False,35.686074697539304,2024-02-09 12:37:53.684210528,0,Healthcare,enterprise,JP,False,0.0,7.0,5.0,8331.0,21.0,2,Growth Potential
+185,free,False,0.0,2024-02-11 17:41:03.157894736,0,Logistics,large,SG,False,0.0,6.0,5.0,4291.0,20.933333333333334,2,Growth Potential
+186,professional,False,38.96483226640835,2024-02-13 22:44:12.631578948,0,Healthcare,medium,JP,False,0.0,3.0,2.0,5401.0,20.866666666666667,1,At-Risk / Low-Value
+187,professional,True,40.46953869213634,2024-02-16 03:47:22.105263160,4,Healthcare,large,SG,True,3.0,14.0,7.0,15146.0,20.766666666666666,2,Growth Potential
+188,starter,True,11.84358561264899,2024-02-18 08:50:31.578947368,6,E-commerce,enterprise,SG,True,1.0,5.0,4.0,5924.0,20.7,1,At-Risk / Low-Value
+189,starter,True,11.391364879773857,2024-02-20 13:53:41.052631580,3,Logistics,large,SG,True,1.0,3.0,3.0,5552.0,20.633333333333333,1,At-Risk / Low-Value
+190,free,True,0.0,2024-02-22 18:56:50.526315792,5,E-commerce,small,SG,True,1.0,4.0,3.0,7132.0,20.566666666666666,1,At-Risk / Low-Value
+191,free,True,0.0,2024-02-25 00:00:00.000000000,2,Technology,medium,SG,True,1.0,7.0,5.0,6571.0,20.5,2,Growth Potential
+192,professional,False,40.51863247266453,2024-02-27 05:03:09.473684208,0,Education,medium,GB,False,0.0,4.0,2.0,2008.0,20.4,1,At-Risk / Low-Value
+193,enterprise,False,94.48847371715327,2024-02-29 10:06:18.947368424,3,Healthcare,medium,SG,False,0.0,3.0,2.0,6373.0,20.333333333333332,0,Champions (High-Value)
+194,starter,False,12.216553600485808,2024-03-02 15:09:28.421052632,3,Education,enterprise,GB,True,1.0,5.0,4.0,5075.0,20.266666666666666,1,At-Risk / Low-Value
+195,free,False,0.0,2024-03-04 20:12:37.894736840,1,E-commerce,enterprise,SG,False,0.0,5.0,4.0,6016.0,20.2,1,At-Risk / Low-Value
+196,free,False,0.0,2024-03-07 01:15:47.368421056,1,E-commerce,medium,JP,True,1.0,3.0,3.0,3174.0,20.1,1,At-Risk / Low-Value
+197,professional,False,42.255045888605494,2024-03-09 06:18:56.842105264,0,E-commerce,large,SG,True,1.0,6.0,5.0,2361.0,20.033333333333335,1,At-Risk / Low-Value
+198,professional,False,36.1671853211679,2024-03-11 11:22:06.315789472,0,Education,medium,CA,False,0.0,7.0,5.0,7473.0,19.966666666666665,2,Growth Potential
+199,professional,False,42.51185135980226,2024-03-13 16:25:15.789473688,0,E-commerce,large,SG,False,0.0,6.0,4.0,11694.0,19.9,2,Growth Potential
+200,professional,True,38.578845029072056,2024-03-15 21:28:25.263157896,0,Technology,large,SG,False,0.0,4.0,3.0,3590.0,19.833333333333332,1,At-Risk / Low-Value
+201,starter,True,11.244319029212686,2024-03-18 02:31:34.736842104,4,E-commerce,enterprise,JP,False,0.0,1.0,1.0,2242.0,19.733333333333334,1,At-Risk / Low-Value
+202,free,True,0.0,2024-03-20 07:34:44.210526320,3,Finance,large,DE,False,0.0,7.0,6.0,13379.0,19.666666666666668,2,Growth Potential
+203,free,True,0.0,2024-03-22 12:37:53.684210528,4,Education,medium,JP,False,0.0,4.0,3.0,3190.0,19.6,1,At-Risk / Low-Value
+204,professional,True,40.811354113994575,2024-03-24 17:41:03.157894736,1,Finance,enterprise,CA,True,2.0,5.0,4.0,5156.0,19.533333333333335,1,At-Risk / Low-Value
+205,starter,True,12.735746754867478,2024-03-26 22:44:12.631578952,1,E-commerce,small,DE,True,2.0,7.0,4.0,6015.0,19.466666666666665,2,Growth Potential
+206,free,False,0.0,2024-03-29 03:47:22.105263160,1,Technology,small,US,True,2.0,10.0,5.0,23027.0,19.366666666666667,2,Growth Potential
+207,free,True,0.0,2024-03-31 08:50:31.578947368,3,Healthcare,enterprise,US,False,0.0,5.0,4.0,5508.0,19.3,1,At-Risk / Low-Value
+208,professional,False,41.72372608220949,2024-04-02 13:53:41.052631576,0,Logistics,medium,CA,False,0.0,3.0,2.0,1792.0,19.233333333333334,1,At-Risk / Low-Value
+209,free,False,0.0,2024-04-04 18:56:50.526315792,0,Logistics,small,JP,True,1.0,3.0,3.0,1996.0,19.166666666666668,1,At-Risk / Low-Value
+210,free,False,0.0,2024-04-07 00:00:00.000000000,0,E-commerce,small,GB,False,0.0,4.0,3.0,11057.0,19.1,1,At-Risk / Low-Value
+211,starter,True,11.330902660367045,2024-04-09 05:03:09.473684208,1,Technology,large,CA,True,1.0,5.0,4.0,6390.0,19.0,1,At-Risk / Low-Value
+212,professional,False,42.803810462373846,2024-04-11 10:06:18.947368424,3,Education,large,DE,True,1.0,2.0,2.0,2522.0,18.933333333333334,1,At-Risk / Low-Value
+213,professional,False,42.46366284955558,2024-04-13 15:09:28.421052632,0,Finance,medium,DE,True,2.0,4.0,3.0,4951.0,18.866666666666667,1,At-Risk / Low-Value
+214,free,True,0.0,2024-04-15 20:12:37.894736840,3,Finance,enterprise,SG,True,1.0,6.0,5.0,6573.0,18.8,2,Growth Potential
+215,professional,False,40.60348634562237,2024-04-18 01:15:47.368421056,2,Finance,medium,US,False,0.0,2.0,2.0,4432.0,18.7,1,At-Risk / Low-Value
+216,free,False,0.0,2024-04-20 06:18:56.842105264,0,Education,enterprise,DE,True,1.0,5.0,4.0,8097.0,18.633333333333333,2,Growth Potential
+217,free,True,0.0,2024-04-22 11:22:06.315789472,4,Logistics,small,CA,True,1.0,6.0,5.0,2476.0,18.566666666666666,1,At-Risk / Low-Value
+218,professional,False,39.52997279831051,2024-04-24 16:25:15.789473688,1,Technology,large,DE,False,0.0,4.0,3.0,6125.0,18.5,1,At-Risk / Low-Value
+219,starter,False,12.9971719142113,2024-04-26 21:28:25.263157896,0,Education,medium,CA,False,0.0,2.0,2.0,3419.0,18.433333333333334,1,At-Risk / Low-Value
+220,professional,False,35.364778632969234,2024-04-29 02:31:34.736842104,0,Finance,medium,GB,False,0.0,6.0,4.0,6320.0,18.333333333333332,2,Growth Potential
+221,professional,False,40.53987808452535,2024-05-01 07:34:44.210526320,1,E-commerce,enterprise,SG,True,1.0,6.0,5.0,5312.0,18.266666666666666,2,Growth Potential
+222,starter,True,11.51363761769412,2024-05-03 12:37:53.684210528,2,Healthcare,enterprise,US,False,0.0,9.0,5.0,4822.0,18.2,2,Growth Potential
+223,free,False,0.0,2024-05-05 17:41:03.157894736,0,Education,medium,DE,False,0.0,5.0,3.0,9221.0,18.133333333333333,1,At-Risk / Low-Value
+224,starter,False,13.130539788396883,2024-05-07 22:44:12.631578952,3,Education,enterprise,CA,True,1.0,5.0,4.0,7622.0,18.066666666666666,1,At-Risk / Low-Value
+225,free,False,0.0,2024-05-10 03:47:22.105263160,0,Technology,medium,JP,False,0.0,2.0,2.0,3233.0,17.966666666666665,1,At-Risk / Low-Value
+226,free,False,0.0,2024-05-12 08:50:31.578947368,1,Technology,medium,US,True,2.0,4.0,3.0,7793.0,17.9,1,At-Risk / Low-Value
+227,enterprise,False,106.16844448958841,2024-05-14 13:53:41.052631584,1,Education,medium,GB,True,1.0,5.0,4.0,17073.0,17.833333333333332,0,Champions (High-Value)
+228,starter,False,12.826918556484168,2024-05-16 18:56:50.526315792,1,Finance,small,CA,True,2.0,7.0,5.0,9977.0,17.766666666666666,2,Growth Potential
+229,professional,True,37.58898369129739,2024-05-19 00:00:00.000000000,3,Healthcare,enterprise,SG,True,2.0,6.0,4.0,7200.0,17.7,2,Growth Potential
+230,starter,False,12.789397137961625,2024-05-21 05:03:09.473684208,1,Technology,large,SG,True,3.0,4.0,2.0,6537.0,17.6,1,At-Risk / Low-Value
+231,professional,False,35.388659550780844,2024-05-23 10:06:18.947368424,4,Finance,large,GB,False,0.0,5.0,4.0,6334.0,17.533333333333335,1,At-Risk / Low-Value
+232,starter,False,12.231047708356925,2024-05-25 15:09:28.421052632,1,E-commerce,enterprise,GB,True,2.0,5.0,4.0,9785.0,17.466666666666665,2,Growth Potential
+233,starter,False,11.352021209490488,2024-05-27 20:12:37.894736840,0,Technology,medium,SG,False,0.0,6.0,2.0,7293.0,17.4,1,At-Risk / Low-Value
+234,starter,False,11.08936052586547,2024-05-30 01:15:47.368421056,1,Finance,large,DE,False,0.0,3.0,3.0,4463.0,17.3,1,At-Risk / Low-Value
+235,free,True,0.0,2024-06-01 06:18:56.842105264,7,Finance,large,DE,True,1.0,4.0,4.0,3773.0,17.233333333333334,1,At-Risk / Low-Value
+236,professional,False,40.53105245184949,2024-06-03 11:22:06.315789472,1,Healthcare,enterprise,CA,False,0.0,5.0,4.0,2832.0,17.166666666666668,1,At-Risk / Low-Value
+237,free,False,0.0,2024-06-05 16:25:15.789473688,2,Healthcare,large,JP,False,0.0,5.0,3.0,7166.0,17.1,1,At-Risk / Low-Value
+238,free,True,0.0,2024-06-07 21:28:25.263157896,0,E-commerce,medium,CA,False,0.0,5.0,3.0,5754.0,17.033333333333335,1,At-Risk / Low-Value
+239,starter,False,10.956855217917461,2024-06-10 02:31:34.736842104,0,Finance,enterprise,JP,True,1.0,7.0,5.0,9342.0,16.933333333333334,2,Growth Potential
+240,free,False,0.0,2024-06-12 07:34:44.210526320,1,Logistics,medium,GB,False,0.0,5.0,5.0,3753.0,16.866666666666667,1,At-Risk / Low-Value
+241,enterprise,True,99.78192758903168,2024-06-14 12:37:53.684210528,1,Finance,large,US,True,1.0,7.0,5.0,10193.0,16.8,0,Champions (High-Value)
+242,enterprise,False,104.75631866381148,2024-06-16 17:41:03.157894736,2,Healthcare,large,CA,False,0.0,4.0,4.0,3113.0,16.733333333333334,0,Champions (High-Value)
+243,enterprise,False,95.41129955805498,2024-06-18 22:44:12.631578952,0,Logistics,medium,CA,False,0.0,4.0,4.0,4933.0,16.666666666666668,0,Champions (High-Value)
+244,starter,False,12.302139303448822,2024-06-21 03:47:22.105263160,0,Technology,small,JP,True,1.0,7.0,6.0,6293.0,16.566666666666666,2,Growth Potential
+245,free,True,0.0,2024-06-23 08:50:31.578947368,3,Technology,large,GB,False,0.0,3.0,2.0,3257.0,16.5,1,At-Risk / Low-Value
+246,enterprise,False,101.29409112600963,2024-06-25 13:53:41.052631584,0,Education,small,GB,False,0.0,1.0,1.0,1570.0,16.433333333333334,0,Champions (High-Value)
+247,starter,False,11.359102739408721,2024-06-27 18:56:50.526315792,2,Healthcare,large,JP,False,0.0,3.0,3.0,2898.0,16.366666666666667,1,At-Risk / Low-Value
+248,enterprise,False,89.58313547481946,2024-06-30 00:00:00.000000000,0,Education,small,GB,False,0.0,5.0,4.0,5855.0,16.3,0,Champions (High-Value)
+249,enterprise,False,106.32795770323843,2024-07-02 05:03:09.473684208,0,Logistics,small,SG,True,2.0,6.0,4.0,6221.0,16.2,0,Champions (High-Value)
+250,professional,False,35.26590140463302,2024-07-04 10:06:18.947368424,1,Healthcare,small,DE,True,1.0,8.0,6.0,9983.0,16.133333333333333,2,Growth Potential
+251,free,True,0.0,2024-07-06 15:09:28.421052632,3,E-commerce,medium,SG,False,0.0,5.0,4.0,3637.0,16.066666666666666,1,At-Risk / Low-Value
+252,starter,False,12.069449121665308,2024-07-08 20:12:37.894736840,0,Finance,small,US,True,1.0,4.0,4.0,4732.0,16.0,1,At-Risk / Low-Value
+253,professional,False,42.42472804840059,2024-07-11 01:15:47.368421056,2,E-commerce,small,CA,True,2.0,9.0,7.0,14147.0,15.9,2,Growth Potential
+254,free,False,0.0,2024-07-13 06:18:56.842105264,1,Logistics,small,US,False,0.0,1.0,1.0,236.0,15.833333333333334,1,At-Risk / Low-Value
+255,free,False,0.0,2024-07-15 11:22:06.315789472,2,Healthcare,large,CA,False,0.0,3.0,3.0,5019.0,15.766666666666667,1,At-Risk / Low-Value
+256,starter,True,11.641708357084106,2024-07-17 16:25:15.789473688,6,Logistics,small,DE,False,0.0,4.0,4.0,6132.0,15.7,1,At-Risk / Low-Value
+257,enterprise,False,104.29032812083632,2024-07-19 21:28:25.263157896,0,Finance,large,GB,False,0.0,9.0,5.0,13724.0,15.633333333333333,0,Champions (High-Value)
+258,professional,False,38.23506112615209,2024-07-22 02:31:34.736842104,1,Technology,small,SG,False,0.0,4.0,3.0,3656.0,15.533333333333333,1,At-Risk / Low-Value
+259,starter,False,11.951701488729382,2024-07-24 07:34:44.210526320,1,Technology,small,JP,True,1.0,5.0,5.0,1938.0,15.466666666666667,1,At-Risk / Low-Value
+260,free,False,0.0,2024-07-26 12:37:53.684210528,1,Logistics,medium,SG,False,0.0,2.0,2.0,472.0,15.4,1,At-Risk / Low-Value
+261,starter,False,12.896825074047214,2024-07-28 17:41:03.157894736,1,Education,large,DE,False,0.0,10.0,6.0,7778.0,15.333333333333334,2,Growth Potential
+262,enterprise,False,106.35648949269243,2024-07-30 22:44:12.631578952,0,Healthcare,small,US,False,0.0,4.0,4.0,4772.0,15.266666666666667,0,Champions (High-Value)
+263,free,False,0.0,2024-08-02 03:47:22.105263160,0,Healthcare,large,JP,False,0.0,3.0,2.0,2154.0,15.166666666666666,1,At-Risk / Low-Value
+264,starter,True,11.8026402772016,2024-08-04 08:50:31.578947368,7,Technology,large,GB,False,0.0,4.0,3.0,11862.0,15.1,1,At-Risk / Low-Value
+265,professional,True,38.38658461776115,2024-08-06 13:53:41.052631584,6,E-commerce,enterprise,DE,False,0.0,3.0,3.0,2610.0,15.033333333333333,1,At-Risk / Low-Value
+266,professional,False,40.85314195239335,2024-08-08 18:56:50.526315792,3,Finance,medium,JP,True,1.0,5.0,3.0,6742.0,14.966666666666667,1,At-Risk / Low-Value
+267,professional,False,36.96246173699276,2024-08-11 00:00:00.000000000,0,E-commerce,medium,DE,False,0.0,1.0,1.0,2147.0,14.9,1,At-Risk / Low-Value
+268,professional,False,35.96169808242488,2024-08-13 05:03:09.473684208,0,E-commerce,medium,DE,False,0.0,6.0,5.0,6095.0,14.8,2,Growth Potential
+269,starter,True,11.651093178337863,2024-08-15 10:06:18.947368424,5,Logistics,enterprise,GB,True,2.0,7.0,5.0,5798.0,14.733333333333333,2,Growth Potential
+270,free,True,0.0,2024-08-17 15:09:28.421052632,3,Technology,enterprise,CA,False,0.0,2.0,2.0,10125.0,14.666666666666666,1,At-Risk / Low-Value
+271,professional,False,37.41120333955672,2024-08-19 20:12:37.894736840,2,Technology,medium,JP,True,1.0,9.0,6.0,6973.0,14.6,2,Growth Potential
+272,professional,False,36.9221404581893,2024-08-22 01:15:47.368421056,2,Technology,enterprise,GB,True,1.0,5.0,4.0,8357.0,14.5,2,Growth Potential
+273,professional,True,35.42832687916362,2024-08-24 06:18:56.842105264,1,Logistics,enterprise,DE,True,1.0,3.0,3.0,6968.0,14.433333333333334,1,At-Risk / Low-Value
+274,enterprise,False,89.4539039077216,2024-08-26 11:22:06.315789472,0,Education,enterprise,GB,True,1.0,6.0,6.0,7456.0,14.366666666666667,0,Champions (High-Value)
+275,starter,False,13.170533735366476,2024-08-28 16:25:15.789473688,2,E-commerce,medium,CA,True,2.0,4.0,2.0,5835.0,14.3,1,At-Risk / Low-Value
+276,starter,False,11.826655520966069,2024-08-30 21:28:25.263157896,1,Logistics,medium,SG,True,3.0,8.0,5.0,10296.0,14.233333333333333,2,Growth Potential
+277,professional,True,38.09774784784552,2024-09-02 02:31:34.736842104,4,Healthcare,medium,JP,True,1.0,4.0,3.0,9279.0,14.133333333333333,1,At-Risk / Low-Value
+278,starter,False,12.431153478463367,2024-09-04 07:34:44.210526320,0,Finance,enterprise,CA,False,0.0,2.0,2.0,2841.0,14.066666666666666,1,At-Risk / Low-Value
+279,professional,False,36.8023803253475,2024-09-06 12:37:53.684210528,2,Education,medium,US,True,3.0,7.0,4.0,6828.0,14.0,2,Growth Potential
+280,professional,False,42.50969723481175,2024-09-08 17:41:03.157894736,1,Healthcare,enterprise,JP,False,0.0,5.0,4.0,8900.0,13.933333333333334,2,Growth Potential
+281,professional,False,41.23349111244131,2024-09-10 22:44:12.631578952,1,E-commerce,small,CA,False,0.0,7.0,6.0,4829.0,13.866666666666667,2,Growth Potential
+282,free,True,0.0,2024-09-13 03:47:22.105263160,3,Technology,enterprise,DE,True,1.0,4.0,2.0,4064.0,13.766666666666667,1,At-Risk / Low-Value
+283,starter,True,11.802193861883827,2024-09-15 08:50:31.578947368,4,E-commerce,large,JP,False,0.0,5.0,5.0,5983.0,13.7,2,Growth Potential
+284,free,False,0.0,2024-09-17 13:53:41.052631584,3,Logistics,medium,JP,False,0.0,10.0,6.0,11887.0,13.633333333333333,2,Growth Potential
+285,starter,False,13.067356853499383,2024-09-19 18:56:50.526315792,1,Finance,medium,GB,False,0.0,8.0,5.0,13662.0,13.566666666666666,2,Growth Potential
+286,free,False,0.0,2024-09-22 00:00:00.000000000,0,Logistics,large,DE,True,1.0,4.0,4.0,3258.0,13.5,1,At-Risk / Low-Value
+287,starter,False,12.272187334105698,2024-09-24 05:03:09.473684208,1,Education,enterprise,US,True,1.0,6.0,4.0,5070.0,13.4,1,At-Risk / Low-Value
+288,starter,False,11.200881470620981,2024-09-26 10:06:18.947368424,1,Education,small,SG,False,0.0,2.0,2.0,6317.0,13.333333333333334,1,At-Risk / Low-Value
+289,free,False,0.0,2024-09-28 15:09:28.421052632,1,Finance,large,CA,False,0.0,4.0,4.0,5718.0,13.266666666666667,1,At-Risk / Low-Value
+290,starter,True,11.356012083320264,2024-09-30 20:12:37.894736840,1,Healthcare,large,GB,True,1.0,5.0,4.0,1961.0,13.2,1,At-Risk / Low-Value
+291,free,True,0.0,2024-10-03 01:15:47.368421056,6,Healthcare,enterprise,CA,False,0.0,5.0,5.0,6870.0,13.1,2,Growth Potential
+292,free,False,0.0,2024-10-05 06:18:56.842105264,2,Education,medium,US,True,1.0,7.0,6.0,5342.0,13.033333333333333,2,Growth Potential
+293,professional,False,39.8403470000551,2024-10-07 11:22:06.315789472,0,Education,enterprise,US,True,1.0,2.0,2.0,3743.0,12.966666666666667,1,At-Risk / Low-Value
+294,starter,True,12.03045242643962,2024-10-09 16:25:15.789473688,5,Technology,large,JP,True,1.0,5.0,4.0,7076.0,12.9,1,At-Risk / Low-Value
+295,free,True,0.0,2024-10-11 21:28:25.263157896,1,Healthcare,large,US,False,0.0,5.0,3.0,4762.0,12.833333333333334,1,At-Risk / Low-Value
+296,starter,False,11.22366727681322,2024-10-14 02:31:34.736842104,1,Finance,medium,CA,False,0.0,2.0,2.0,4058.0,12.733333333333333,1,At-Risk / Low-Value
+297,professional,False,36.81979243074737,2024-10-16 07:34:44.210526320,0,Healthcare,medium,DE,True,1.0,7.0,7.0,14951.0,12.666666666666666,2,Growth Potential
+298,free,False,0.0,2024-10-18 12:37:53.684210528,4,Technology,medium,DE,False,0.0,8.0,5.0,15539.0,12.6,2,Growth Potential
+299,starter,True,12.671002736560208,2024-10-20 17:41:03.157894736,3,Logistics,enterprise,JP,True,1.0,4.0,3.0,2372.0,12.533333333333333,1,At-Risk / Low-Value
+300,free,False,0.0,2024-10-22 22:44:12.631578952,1,Education,medium,SG,False,0.0,3.0,3.0,3417.0,12.466666666666667,1,At-Risk / Low-Value
+301,free,False,0.0,2024-10-25 03:47:22.105263160,1,Education,large,CA,True,2.0,3.0,2.0,2657.0,12.366666666666667,1,At-Risk / Low-Value
+302,starter,True,13.125846312337949,2024-10-27 08:50:31.578947368,2,Technology,large,CA,True,1.0,4.0,3.0,3299.0,12.3,1,At-Risk / Low-Value
+303,starter,False,12.921086123912222,2024-10-29 13:53:41.052631584,0,Finance,small,US,True,2.0,5.0,4.0,3273.0,12.233333333333333,1,At-Risk / Low-Value
+304,starter,True,13.026605479668511,2024-10-31 18:56:50.526315792,0,Education,enterprise,CA,True,1.0,7.0,7.0,4706.0,12.166666666666666,2,Growth Potential
+305,professional,True,42.8602810166422,2024-11-03 00:00:00.000000000,0,E-commerce,small,GB,False,0.0,3.0,3.0,2663.0,12.1,1,At-Risk / Low-Value
+306,enterprise,False,92.54312593454586,2024-11-05 05:03:09.473684216,1,Education,large,SG,True,1.0,3.0,2.0,2382.0,12.0,0,Champions (High-Value)
+307,starter,False,11.750980845366382,2024-11-07 10:06:18.947368424,1,E-commerce,small,US,True,2.0,10.0,7.0,12644.0,11.933333333333334,2,Growth Potential
+308,free,False,0.0,2024-11-09 15:09:28.421052632,1,Technology,large,GB,False,0.0,0.0,0.0,0.0,11.866666666666667,1,At-Risk / Low-Value
+309,professional,False,40.528960820819584,2024-11-11 20:12:37.894736840,2,Technology,small,JP,True,1.0,4.0,4.0,4039.0,11.8,1,At-Risk / Low-Value
+310,free,False,0.0,2024-11-14 01:15:47.368421056,0,Education,medium,DE,False,0.0,5.0,5.0,7056.0,11.7,2,Growth Potential
+311,starter,False,12.757999499977483,2024-11-16 06:18:56.842105264,1,Healthcare,small,JP,False,0.0,5.0,5.0,8832.0,11.633333333333333,2,Growth Potential
+312,free,False,0.0,2024-11-18 11:22:06.315789472,1,E-commerce,medium,DE,True,1.0,6.0,5.0,8259.0,11.566666666666666,2,Growth Potential
+313,free,False,0.0,2024-11-20 16:25:15.789473688,0,Finance,medium,JP,False,0.0,3.0,3.0,5873.0,11.5,1,At-Risk / Low-Value
+314,enterprise,False,99.73209357328959,2024-11-22 21:28:25.263157896,1,Education,enterprise,CA,False,0.0,5.0,5.0,9283.0,11.433333333333334,0,Champions (High-Value)
+315,professional,False,39.72493149176528,2024-11-25 02:31:34.736842104,1,Finance,medium,GB,False,0.0,4.0,2.0,7896.0,11.333333333333334,1,At-Risk / Low-Value
+316,professional,False,39.624672421134925,2024-11-27 07:34:44.210526320,1,Education,medium,DE,True,1.0,5.0,4.0,4646.0,11.266666666666667,1,At-Risk / Low-Value
+317,starter,False,11.019568409754612,2024-11-29 12:37:53.684210528,1,Healthcare,small,US,True,1.0,3.0,3.0,3490.0,11.2,1,At-Risk / Low-Value
+318,free,False,0.0,2024-12-01 17:41:03.157894736,3,Healthcare,large,GB,False,0.0,3.0,2.0,1026.0,11.133333333333333,1,At-Risk / Low-Value
+319,free,True,0.0,2024-12-03 22:44:12.631578952,1,Healthcare,enterprise,US,True,1.0,7.0,5.0,10195.0,11.066666666666666,2,Growth Potential
+320,free,False,0.0,2024-12-06 03:47:22.105263160,0,Logistics,medium,GB,False,0.0,4.0,3.0,2485.0,10.966666666666667,1,At-Risk / Low-Value
+321,starter,False,12.932995391685544,2024-12-08 08:50:31.578947368,0,Healthcare,enterprise,GB,True,1.0,5.0,5.0,3541.0,10.9,1,At-Risk / Low-Value
+322,professional,False,42.55408168619208,2024-12-10 13:53:41.052631584,1,Technology,small,JP,False,0.0,5.0,4.0,6446.0,10.833333333333334,1,At-Risk / Low-Value
+323,professional,True,41.82459541467052,2024-12-12 18:56:50.526315792,4,Technology,medium,DE,True,1.0,7.0,7.0,9421.0,10.766666666666667,2,Growth Potential
+324,free,False,0.0,2024-12-15 00:00:00.000000000,1,Logistics,small,DE,False,0.0,3.0,2.0,3268.0,10.7,1,At-Risk / Low-Value
+325,enterprise,False,102.07379121665262,2024-12-17 05:03:09.473684216,0,E-commerce,enterprise,GB,True,1.0,8.0,5.0,6422.0,10.6,0,Champions (High-Value)
+326,professional,False,39.39668749075129,2024-12-19 10:06:18.947368424,1,Finance,small,CA,False,0.0,8.0,5.0,8561.0,10.533333333333333,2,Growth Potential
+327,starter,True,11.008768223787385,2024-12-21 15:09:28.421052632,4,Education,enterprise,CA,True,1.0,7.0,6.0,11491.0,10.466666666666667,2,Growth Potential
+328,starter,False,11.780287711369677,2024-12-23 20:12:37.894736840,2,Education,small,US,False,0.0,8.0,5.0,4485.0,10.4,2,Growth Potential
+329,starter,True,11.694452440829554,2024-12-26 01:15:47.368421056,1,Logistics,enterprise,US,False,0.0,6.0,5.0,1924.0,10.3,1,At-Risk / Low-Value
+330,free,True,0.0,2024-12-28 06:18:56.842105264,4,Technology,large,JP,True,1.0,4.0,2.0,6192.0,10.233333333333333,1,At-Risk / Low-Value
+331,starter,True,12.536208272852605,2024-12-30 11:22:06.315789472,3,Education,small,GB,False,0.0,7.0,4.0,11364.0,10.166666666666666,2,Growth Potential
+332,professional,False,38.96783073361441,2025-01-01 16:25:15.789473688,2,Technology,small,US,True,1.0,7.0,5.0,7371.0,10.1,2,Growth Potential
+333,free,False,0.0,2025-01-03 21:28:25.263157896,0,E-commerce,large,US,True,1.0,6.0,6.0,10878.0,10.033333333333333,2,Growth Potential
+334,free,False,0.0,2025-01-06 02:31:34.736842104,0,Finance,large,SG,False,0.0,5.0,3.0,4205.0,9.933333333333334,1,At-Risk / Low-Value
+335,free,False,0.0,2025-01-08 07:34:44.210526320,0,E-commerce,small,GB,False,0.0,5.0,4.0,9775.0,9.866666666666667,2,Growth Potential
+336,free,False,0.0,2025-01-10 12:37:53.684210528,0,Logistics,large,JP,True,2.0,7.0,4.0,13550.0,9.8,2,Growth Potential
+337,professional,False,41.739413929580394,2025-01-12 17:41:03.157894736,2,Healthcare,medium,US,True,1.0,3.0,3.0,3844.0,9.733333333333333,1,At-Risk / Low-Value
+338,professional,False,38.962142910709,2025-01-14 22:44:12.631578952,0,Healthcare,enterprise,JP,False,0.0,3.0,2.0,3428.0,9.666666666666666,1,At-Risk / Low-Value
+339,starter,False,11.953407785583956,2025-01-17 03:47:22.105263160,2,Healthcare,enterprise,DE,True,1.0,3.0,3.0,3811.0,9.566666666666666,1,At-Risk / Low-Value
+340,free,False,0.0,2025-01-19 08:50:31.578947368,2,E-commerce,enterprise,JP,False,0.0,6.0,3.0,7022.0,9.5,1,At-Risk / Low-Value
+341,starter,False,12.779234318220357,2025-01-21 13:53:41.052631584,1,Education,medium,CA,True,1.0,3.0,3.0,1576.0,9.433333333333334,1,At-Risk / Low-Value
+342,starter,False,11.634742098965262,2025-01-23 18:56:50.526315792,0,Finance,large,CA,True,1.0,7.0,6.0,4811.0,9.366666666666667,2,Growth Potential
+343,free,False,0.0,2025-01-26 00:00:00.000000000,3,Healthcare,large,JP,True,1.0,2.0,2.0,2147.0,9.3,1,At-Risk / Low-Value
+344,starter,False,12.157756713589897,2025-01-28 05:03:09.473684216,1,Logistics,small,CA,True,1.0,6.0,6.0,17830.0,9.2,2,Growth Potential
+345,starter,True,11.440867848406612,2025-01-30 10:06:18.947368424,1,Logistics,large,DE,False,0.0,3.0,3.0,2062.0,9.133333333333333,1,At-Risk / Low-Value
+346,starter,False,12.90871196725238,2025-02-01 15:09:28.421052632,2,Healthcare,small,GB,False,0.0,5.0,3.0,7561.0,9.066666666666666,1,At-Risk / Low-Value
+347,starter,False,12.713822451856627,2025-02-03 20:12:37.894736840,0,Healthcare,medium,CA,True,1.0,7.0,6.0,8598.0,9.0,2,Growth Potential
+348,free,False,0.0,2025-02-06 01:15:47.368421056,1,Finance,enterprise,CA,True,3.0,9.0,5.0,8907.0,8.9,2,Growth Potential
+349,starter,False,12.84139614982618,2025-02-08 06:18:56.842105264,0,Healthcare,enterprise,JP,False,0.0,7.0,6.0,5761.0,8.833333333333334,2,Growth Potential
+350,starter,False,12.881506082303526,2025-02-10 11:22:06.315789472,0,Finance,enterprise,DE,True,1.0,6.0,4.0,3712.0,8.766666666666667,1,At-Risk / Low-Value
+351,starter,True,12.500071144116085,2025-02-12 16:25:15.789473688,3,Logistics,large,GB,True,1.0,4.0,4.0,1692.0,8.7,1,At-Risk / Low-Value
+352,professional,False,41.628703961236646,2025-02-14 21:28:25.263157896,3,Healthcare,small,JP,False,0.0,2.0,1.0,1408.0,8.633333333333333,1,At-Risk / Low-Value
+353,professional,False,40.54027740102042,2025-02-17 02:31:34.736842104,2,E-commerce,small,JP,False,0.0,5.0,4.0,5541.0,8.533333333333333,1,At-Risk / Low-Value
+354,free,True,0.0,2025-02-19 07:34:44.210526320,0,E-commerce,medium,SG,False,0.0,3.0,3.0,1800.0,8.466666666666667,1,At-Risk / Low-Value
+355,free,True,0.0,2025-02-21 12:37:53.684210528,1,Logistics,large,DE,True,1.0,9.0,5.0,9938.0,8.4,2,Growth Potential
+356,starter,False,12.606519934938337,2025-02-23 17:41:03.157894736,2,Finance,medium,GB,True,2.0,10.0,6.0,11845.0,8.333333333333334,2,Growth Potential
+357,free,False,0.0,2025-02-25 22:44:12.631578952,0,E-commerce,small,DE,False,0.0,2.0,2.0,320.0,8.266666666666667,1,At-Risk / Low-Value
+358,starter,False,12.914089822077427,2025-02-28 03:47:22.105263160,2,Finance,small,GB,False,0.0,5.0,3.0,5332.0,8.166666666666666,1,At-Risk / Low-Value
+359,enterprise,False,106.35648949269243,2025-03-02 08:50:31.578947368,2,E-commerce,enterprise,DE,True,1.0,7.0,6.0,21814.0,8.1,0,Champions (High-Value)
+360,starter,False,10.870193479282943,2025-03-04 13:53:41.052631584,1,E-commerce,large,JP,False,0.0,3.0,2.0,2420.0,8.033333333333333,1,At-Risk / Low-Value
+361,starter,True,12.78196020135543,2025-03-06 18:56:50.526315792,6,Finance,small,JP,False,0.0,2.0,2.0,2514.0,7.966666666666667,1,At-Risk / Low-Value
+362,starter,False,11.10928768193627,2025-03-09 00:00:00.000000000,0,Education,enterprise,US,False,0.0,3.0,3.0,3511.0,7.9,1,At-Risk / Low-Value
+363,starter,True,11.60428525022194,2025-03-11 05:03:09.473684216,5,E-commerce,large,CA,False,0.0,4.0,3.0,3790.0,7.8,1,At-Risk / Low-Value
+364,starter,False,12.58441981509986,2025-03-13 10:06:18.947368424,1,Healthcare,medium,SG,True,2.0,5.0,4.0,6843.0,7.733333333333333,1,At-Risk / Low-Value
+365,enterprise,True,92.2830459417565,2025-03-15 15:09:28.421052632,1,Logistics,large,DE,False,0.0,6.0,4.0,6926.0,7.666666666666667,0,Champions (High-Value)
+366,starter,False,12.763120857885749,2025-03-17 20:12:37.894736840,2,Education,large,SG,True,1.0,11.0,7.0,15143.0,7.6,2,Growth Potential
+367,enterprise,False,105.57625672356328,2025-03-20 01:15:47.368421056,1,Finance,small,US,True,1.0,8.0,6.0,12085.0,7.5,0,Champions (High-Value)
+368,enterprise,False,99.14786112846456,2025-03-22 06:18:56.842105264,0,Education,small,CA,True,1.0,6.0,6.0,11218.0,7.433333333333334,0,Champions (High-Value)
+369,free,True,0.0,2025-03-24 11:22:06.315789472,8,Technology,large,DE,False,0.0,1.0,1.0,13.0,7.366666666666666,1,At-Risk / Low-Value
+370,free,False,0.0,2025-03-26 16:25:15.789473688,2,Technology,small,GB,False,0.0,6.0,5.0,5472.0,7.3,2,Growth Potential
+371,free,True,0.0,2025-03-28 21:28:25.263157896,0,E-commerce,small,CA,True,2.0,4.0,3.0,8927.0,7.233333333333333,1,At-Risk / Low-Value
+372,free,False,0.0,2025-03-31 02:31:34.736842104,1,E-commerce,small,JP,True,1.0,6.0,4.0,4631.0,7.133333333333334,1,At-Risk / Low-Value
+373,free,True,0.0,2025-04-02 07:34:44.210526320,3,Healthcare,enterprise,US,True,1.0,8.0,5.0,8279.0,7.066666666666666,2,Growth Potential
+374,professional,False,37.12646793230044,2025-04-04 12:37:53.684210528,0,Logistics,enterprise,CA,False,0.0,1.0,1.0,333.0,7.0,1,At-Risk / Low-Value
+375,free,False,0.0,2025-04-06 17:41:03.157894736,3,Education,large,CA,False,0.0,4.0,4.0,10567.0,6.933333333333334,2,Growth Potential
+376,free,True,0.0,2025-04-08 22:44:12.631578952,4,Technology,small,JP,True,1.0,3.0,3.0,4661.0,6.866666666666666,1,At-Risk / Low-Value
+377,professional,False,41.18279408217892,2025-04-11 03:47:22.105263160,2,E-commerce,enterprise,DE,False,0.0,6.0,4.0,10020.0,6.766666666666667,2,Growth Potential
+378,free,False,0.0,2025-04-13 08:50:31.578947368,0,Logistics,large,GB,True,2.0,6.0,4.0,5114.0,6.7,1,At-Risk / Low-Value
+379,professional,False,41.03601763951582,2025-04-15 13:53:41.052631584,2,Education,small,JP,False,0.0,3.0,2.0,2244.0,6.633333333333334,1,At-Risk / Low-Value
+380,free,False,0.0,2025-04-17 18:56:50.526315792,0,E-commerce,medium,GB,False,0.0,8.0,3.0,10922.0,6.566666666666666,2,Growth Potential
+381,free,False,0.0,2025-04-20 00:00:00.000000000,0,E-commerce,small,DE,True,1.0,7.0,5.0,11790.0,6.5,2,Growth Potential
+382,professional,False,37.76660289510175,2025-04-22 05:03:09.473684208,0,Technology,small,CA,False,0.0,6.0,4.0,7371.0,6.4,2,Growth Potential
+383,starter,False,12.318292543521476,2025-04-24 10:06:18.947368416,1,Technology,enterprise,GB,False,0.0,3.0,3.0,4492.0,6.333333333333333,1,At-Risk / Low-Value
+384,professional,False,42.36981922297814,2025-04-26 15:09:28.421052640,2,E-commerce,large,US,False,0.0,4.0,4.0,5240.0,6.266666666666667,1,At-Risk / Low-Value
+385,professional,False,35.8995758783273,2025-04-28 20:12:37.894736848,3,Finance,large,US,True,2.0,4.0,3.0,6501.0,6.2,1,At-Risk / Low-Value
+386,professional,False,42.41038220044432,2025-05-01 01:15:47.368421056,0,E-commerce,enterprise,JP,False,0.0,4.0,3.0,3688.0,6.1,1,At-Risk / Low-Value
+387,free,False,0.0,2025-05-03 06:18:56.842105264,1,Logistics,small,DE,True,1.0,3.0,3.0,2781.0,6.033333333333333,1,At-Risk / Low-Value
+388,free,False,0.0,2025-05-05 11:22:06.315789472,1,E-commerce,medium,JP,False,0.0,5.0,4.0,2869.0,5.966666666666667,1,At-Risk / Low-Value
+389,professional,False,37.44751582218517,2025-05-07 16:25:15.789473680,0,Healthcare,small,JP,False,0.0,6.0,5.0,8172.0,5.9,2,Growth Potential
+390,professional,False,40.6237422914332,2025-05-09 21:28:25.263157904,1,Healthcare,small,SG,False,0.0,3.0,2.0,3876.0,5.833333333333333,1,At-Risk / Low-Value
+391,enterprise,False,90.43354190908167,2025-05-12 02:31:34.736842112,1,Healthcare,medium,JP,True,1.0,4.0,3.0,10611.0,5.733333333333333,0,Champions (High-Value)
+392,starter,False,12.197209104423056,2025-05-14 07:34:44.210526320,2,Finance,enterprise,SG,True,3.0,7.0,5.0,5965.0,5.666666666666667,2,Growth Potential
+393,starter,False,11.630119336687095,2025-05-16 12:37:53.684210528,0,Finance,large,US,True,1.0,4.0,3.0,2373.0,5.6,1,At-Risk / Low-Value
+394,professional,False,39.94314103858632,2025-05-18 17:41:03.157894736,0,E-commerce,enterprise,US,False,0.0,4.0,4.0,6698.0,5.533333333333333,1,At-Risk / Low-Value
+395,free,True,0.0,2025-05-20 22:44:12.631578944,0,Healthcare,enterprise,JP,True,1.0,5.0,4.0,8284.0,5.466666666666667,2,Growth Potential
+396,enterprise,False,106.35642876181704,2025-05-23 03:47:22.105263152,0,Finance,small,US,False,0.0,6.0,4.0,12508.0,5.366666666666666,0,Champions (High-Value)
+397,professional,False,42.693213959583694,2025-05-25 08:50:31.578947376,4,Technology,large,DE,False,0.0,1.0,1.0,1973.0,5.3,1,At-Risk / Low-Value
+398,starter,False,13.12530685268566,2025-05-27 13:53:41.052631584,1,E-commerce,large,SG,False,0.0,2.0,1.0,876.0,5.233333333333333,1,At-Risk / Low-Value
+399,professional,False,40.94728428759482,2025-05-29 18:56:50.526315792,2,Logistics,enterprise,SG,False,0.0,1.0,1.0,93.0,5.166666666666667,1,At-Risk / Low-Value
+400,professional,False,36.11467267301893,2025-06-01 00:00:00.000000000,0,Education,medium,JP,False,0.0,3.0,3.0,4145.0,5.1,1,At-Risk / Low-Value
